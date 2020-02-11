@@ -6,7 +6,7 @@ function draw() {
   strokeWeight(4);
   stroke(51);
   background(94, 169, 204);
-  //1 //
+  //1 
   fill(57, 158, 140);
   rectMode(CENTER);
   rect(200,200,350,350);
