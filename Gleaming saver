@@ -1,0 +1,17 @@
+var r=0;
+var b=255;
+var g=180;
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  //background(220);
+  r=map(mouseX,0,600,0,255);
+  b=map(mouseX,0,600,255,0);
+  g=map(mouseY,0,400,180,0);
+  background(r,g,b);
+  fill(250,118,222);
+  ellipse(mouseX,mouseY,64,64);
+  
+}
